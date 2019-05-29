@@ -1,6 +1,6 @@
 import React from 'react'
-import {render} from 'react-dom'
+import ReactDOM from 'react-dom'
+import App from './App'
+import 'babel-polyfill'
 
-import Title from './components/Title'
-
-render(<Title align="center">こんにちわ世界</Title>, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app') as HTMLElement)

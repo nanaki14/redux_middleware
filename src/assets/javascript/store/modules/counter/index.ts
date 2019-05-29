@@ -10,7 +10,7 @@ export type State = {
 }
 
 export const initialState: State = {
-  count: 0
+  count: 1
 }
 
 const reducer: Reducer<State, Action> = (
